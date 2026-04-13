@@ -160,7 +160,7 @@ function BranchCard({ branch, inView, index }: { branch: Branch; inView: boolean
         {/* Branch badge overlay */}
         <div className="absolute top-3 left-3">
           <span className="px-2.5 py-1 rounded-full text-[11px] font-semibold text-white
-                           bg-amber text-onyx">
+                           bg-amber">
             {branch.badge}
           </span>
         </div>
@@ -351,7 +351,7 @@ export default function LokasiSection() {
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             className="flex items-center gap-2 px-7 py-3 rounded-full text-white
-                       bg-amber text-onyx font-semibold text-sm
+                       bg-amber font-semibold text-sm
                        hover:bg-amber-light transition-colors duration-200 cursor-pointer"
           >
             <MessageCircle size={16} />

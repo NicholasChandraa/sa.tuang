@@ -202,9 +202,9 @@ export default function Hero() {
               whileTap={{ scale: 0.96 }}
               onClick={() => scrollTo('#menu')}
               className="animate-amber-pulse px-7 py-3.5 rounded-full
-                         bg-amber text-onyx font-semibold text-sm
+                         bg-amber font-semibold text-sm
                          hover:bg-amber-light transition-colors duration-200
-                         cursor-pointer"
+                         cursor-pointer text-white"
             >
               Lihat Menu
             </motion.button>

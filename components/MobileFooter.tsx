@@ -48,11 +48,11 @@ export default function MobileFooter() {
           onClick={() => lenis?.scrollTo('#lokasi', { offset: -80, duration: 1.2 })}
           className="flex flex-1 items-center justify-center gap-2
                      py-3 rounded-xl
-                     bg-amber text-onyx
+                     bg-amber 
                      text-sm font-semibold
                      animate-amber-pulse
                      active:scale-95 transition-transform duration-150
-                     cursor-pointer"
+                     cursor-pointer text-white"
         >
           <MapPin size={16} strokeWidth={2.5} />
           Lokasi
