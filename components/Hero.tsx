@@ -13,7 +13,7 @@ import type Lenis from 'lenis';
 import Image from 'next/image';
 import { MapPin, Star, ArrowDown, MessageCircle, X } from 'lucide-react';
 
-const WA_NUMBER  = '6281234567890'; // ganti nomor WA SA.TUANG
+const WA_NUMBER  = '6287842142997';
 const WA_MESSAGE = encodeURIComponent('Halo SA.TUANG! Saya ingin tanya-tanya / reservasi meja.');
 
 /* ── Cubic bezier easing (typed as tuple for Framer Motion v12) ──────── */
@@ -398,7 +398,7 @@ export default function Hero() {
                   Batal
                 </button>
                 <motion.a
-                  href={`https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`}
+                  href={`https://web.whatsapp.com/send/?phone=${WA_NUMBER}&text&type=phone_number&app_absent=0`}
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.03 }}

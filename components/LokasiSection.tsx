@@ -8,7 +8,7 @@ import { MapPin, Clock, Car, ExternalLink, MessageCircle, ChevronDown } from 'lu
 /* ── Constants ───────────────────────────────────────────────────────── */
 const EXPO_OUT: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
-const WA_NUMBER  = '6281234567890'; // ganti nomor WA SA.TUANG
+const WA_NUMBER  = '6287842142997';
 const WA_MESSAGE = encodeURIComponent('Halo SA.TUANG! Saya ingin tanya-tanya / reservasi meja.');
 
 /* ── Branch data ─────────────────────────────────────────────────────── */
@@ -345,7 +345,7 @@ export default function LokasiSection() {
           className="mt-8 flex justify-center"
         >
           <motion.a
-            href={`https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`}
+            href={`https://web.whatsapp.com/send/?phone=${WA_NUMBER}&text&type=phone_number&app_absent=0`}
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.03 }}

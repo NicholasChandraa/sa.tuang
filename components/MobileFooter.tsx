@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { MessageCircle, MapPin } from 'lucide-react';
 import { useLenis } from 'lenis/react';
 
-const WA_NUMBER = '6281234567890'; // ganti dengan nomor WhatsApp SA.TUANG
+const WA_NUMBER = '6287842142997';
 const WA_MESSAGE = encodeURIComponent(
   'Halo SA.TUANG! Saya ingin tanya-tanya / berkunjung ke salah satu cabang.'
 );
@@ -27,7 +27,7 @@ export default function MobileFooter() {
       >
         {/* WhatsApp CTA */}
         <a
-          href={`https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`}
+          href={`https://web.whatsapp.com/send/?phone=${WA_NUMBER}&text&type=phone_number&app_absent=0`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-1 items-center justify-center gap-2
