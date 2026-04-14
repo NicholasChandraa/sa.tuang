@@ -288,7 +288,7 @@ export default function Hero() {
             <div className="flex items-center gap-1.5">
               <Star size={14} className="text-amber fill-amber" />
               <span className="font-display font-semibold text-sm text-onyx dark:text-parchment">
-                4.6
+                4.8
               </span>
             </div>
             <div className="text-[10px] text-onyx/50 dark:text-parchment/50 mt-0.5">
