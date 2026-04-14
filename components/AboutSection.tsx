@@ -229,11 +229,11 @@ export default function AboutSection() {
                 </span>
               </div>
               <div className="text-[10px] text-onyx/50 dark:text-parchment/50 mt-0.5">
-                Google Rating
+                Banjar Wijaya
               </div>
             </motion.div>
 
-            {/* Floating WiFi badge */}
+            {/* Floating rating badge – Concept Store */}
             <motion.div
               initial={{ y: 0 }}
               animate={{ y: -9 }}
@@ -249,14 +249,14 @@ export default function AboutSection() {
                          border border-amber/25 rounded-2xl
                          px-4 py-3 shadow-lg shadow-amber/10 dark:bg-onyx"
             >
-              <div className="flex items-center gap-2">
-                <Wifi size={13} className="text-amber" />
-                <span className="text-sm font-semibold font-display text-onyx dark:text-parchment">
-                  WiFi Ready
+              <div className="flex items-center gap-1.5">
+                <Star size={13} className="text-amber fill-amber" />
+                <span className="font-display font-semibold text-sm text-onyx dark:text-parchment">
+                  4.8
                 </span>
               </div>
               <div className="text-[10px] text-onyx/50 dark:text-parchment/50 mt-0.5">
-                Cocok untuk nugas
+                Concept Store
               </div>
             </motion.div>
           </motion.div>

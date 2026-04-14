@@ -288,15 +288,15 @@ export default function Hero() {
             <div className="flex items-center gap-1.5">
               <Star size={14} className="text-amber fill-amber" />
               <span className="font-display font-semibold text-sm text-onyx dark:text-parchment">
-                4.6
+                4.8
               </span>
             </div>
             <div className="text-[10px] text-onyx/50 dark:text-parchment/50 mt-0.5">
-              Top Rated Cafe
+              Concept Store
             </div>
           </motion.div>
 
-          {/* Floating mocktail badge */}
+          {/* Floating rating badge – Banjar Wijaya */}
           <motion.div
             initial={{ y: 0 }}
             animate={{ y: -8 }}
@@ -312,11 +312,14 @@ export default function Hero() {
                        border border-amber/25 rounded-2xl
                        px-4 py-3 shadow-lg shadow-amber/10 dark:bg-onyx"
           >
-            <div className="text-sm font-semibold font-display text-onyx dark:text-parchment">
-              🍑 Moonlight
+            <div className="flex items-center gap-1.5">
+              <Star size={14} className="text-amber fill-amber" />
+              <span className="font-display font-semibold text-sm text-onyx dark:text-parchment">
+                4.6
+              </span>
             </div>
             <div className="text-[10px] text-onyx/50 dark:text-parchment/50 mt-0.5">
-              Coffee Mocktail · Rp 30k
+              Banjar Wijaya
             </div>
           </motion.div>
         </div>
